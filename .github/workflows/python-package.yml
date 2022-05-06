@@ -1,3 +1,9 @@
+# name: Python package
+
+# on:
+#   push:
+#     branches: [ main ]
+
 name: README Updater
 
 on:
