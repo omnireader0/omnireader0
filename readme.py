@@ -3,7 +3,11 @@ import feedparser
 blog_rss_uri="https://sebiblog.tistory.com/rss"
 feed = feedparser.parse(blog_rss_uri)
 
-markdown_text = ""
+markdown_text = """
+
+### ✍ Recent blog posts 
+""" # list of blog posts will be appended here
+
 
 j=0
 for i in feed['entries']:
