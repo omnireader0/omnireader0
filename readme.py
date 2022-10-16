@@ -10,6 +10,7 @@ markdown_text = """
 """ # list of blog posts will be appended here
 
 
+'''
 j=0
 for i in feed['entries']:
     j+= 1
@@ -23,3 +24,4 @@ for i in feed['entries']:
 f = open("README.md",mode="w", encoding="utf-8")
 f.write(markdown_text)
 f.close()  
+'''
